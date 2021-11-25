@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "remix-app-template",
+  "description": "",
+  "license": "",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix watch",
+    "postinstall": "remix setup node",
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "@remix-run/react": "^1.0.4",
+    "@remix-run/vercel": "^1.0.4",
+    "@vercel/node": "^1.8.3",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "google-map-react": "^2.1.10",
+    "leaflet": "^1.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix": "^1.0.4",
+    "tiny-invariant": "^1.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.0.4",
+    "@types/google-map-react": "^2.1.3",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "typescript": "^4.1.2",
+    "vercel": "^21.2.2"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
