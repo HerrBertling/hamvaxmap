@@ -91,7 +91,7 @@ function Layout({ children }: React.PropsWithChildren<{}>) {
       </div>
       <footer className="remix-app__footer">
         <div className="container remix-app__footer-content">
-          <p>Made with &#9829; by Markus Siering</p>
+          <p>Made with &#9829; by Markus Siering | <a href="https://github.com/HerrBertling/hamvaxmap" rel="noopener noreferrer">Source auf GitHub</a></p>
         </div>
       </footer>
     </div>
